@@ -116,6 +116,7 @@ class Menu:
     def play(self):
         Play(self.master)
 
-root = Tk()
-my_gui = Menu(root)
-root.mainloop()
+if __name__ == "__main__":
+    root = Tk()
+    my_gui = Menu(root)
+    root.mainloop()
